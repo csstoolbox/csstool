@@ -7,25 +7,25 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: rgb (0, 0, 0);
+    background: rgb(0, 0, 0);
 }
 button {
-    padding: 15 px;
+    padding: 15px;
     font-family: "Comme";
-    background: rgb (0, 0, 0);
-    color: rgb (255, 255, 255);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border: none;
 }
 button:hover {
-    background: rgb (200, 200, 200);
-    color: rgb (0, 0, 0);
+    background: rgb(200, 200, 200);
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 .left-box {
-    width: 70 %;
-    margin-top: 55 px;
-    background: rgb (255, 255, 255);
-    color: rgb (0, 0, 0);
+    width: 70%;
+    margin-top: 55px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .at-home {
     display: none;
