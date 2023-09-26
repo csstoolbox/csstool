@@ -9,25 +9,13 @@ var html = document.getElementById("html");
 var css = document.getElementById("css");
 homeb.addEventListener("mousedown", function(e) {
     home.classList.toggle("home");
-    info.classList.toggle("at-info");
-    html.classList.toggle("at-html");
-    css.classList.toggle("at-css");
 });
 infob.addEventListener("mousedown", function(e) {
-    home.classList.toggle("at-home");
     info.classList.toggle("info");
-    html.classList.toggle("at-html");
-    css.classList.toggle("at-css");
 });
 htmlb.addEventListener("mousedown", function(e) {
-    home.classList.toggle("at-home");
-    info.classList.toggle("at-info");
     html.classList.toggle("html");
-    css.classList.toggle("at-css");
 });
 cssb.addEventListener("mousedown", function(e) {
-home.classList.toggle("at-home");
-info.classList.toggle("at-info");
-html.classList.toggle("at-html");
-css.classList.toggle("css");
+    css.classList.toggle("css");
 });
