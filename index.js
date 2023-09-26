@@ -7,15 +7,15 @@ var home = document.getElementById("home");
 var info = document.getElementById("info");
 var html = document.getElementById("html");
 var css = document.getElementById("css");
-homeb.addEventListener("mousedown", function(e) {
+homeb.addEventListener("mousedown", function (e) {
     home.classList.toggle("home");
 });
-infob.addEventListener("mousedown", function(e) {
+infob.addEventListener("mousedown", function (e) {
     info.classList.toggle("info");
 });
-htmlb.addEventListener("mousedown", function(e) {
+htmlb.addEventListener("mousedown", function (e) {
     html.classList.toggle("html");
 });
-cssb.addEventListener("mousedown", function(e) {
+cssb.addEventListener("mousedown", function (e) {
     css.classList.toggle("css");
 });
